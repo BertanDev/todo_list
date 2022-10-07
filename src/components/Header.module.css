@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+}
+
+/*Title "todo" styles*/
+.containerTitle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imgRocket{
+    width: 1.57rem;
+    height: 2.57rem;
+}
+
+.title{
+    font-size: 2.85rem;
+    color: var(--blue);
+    font-weight: 900;
+}
+
+.titleDo{
+    color: var(--purple-dark);
+}
+
+/*Input and Button styles*/
+.containerInput{
+    display: flex;
+    margin-top: 60px;
+    gap: 1rem;
+}
+
+.input{
+    width: 45.57rem;
+    height: 3.85rem;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    padding: 1rem;
+    color: var(--gray-300);
+    outline: 0;
+}
+
+.input:focus{
+    outline: 1px solid var(--purple-dark);
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.42rem;
+    height: 3.85rem;
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+    color: var(--gray-100);
+    font-weight: bold;
+    gap: .5rem;
+}

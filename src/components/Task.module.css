@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    width: 53rem;
+    height: 5.14rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 0 1.5rem;
+}
+
+.container button{
+    color: var(--gray-300);
+    background: transparent;
+    cursor: pointer;
+}
+
+.inputAndText{
+    display: flex;
+    gap: 1rem;
+}
+
+.inputAndText input{
+    border: 55px solid var(--blue-dark);
+}
+
+.textCompleted{
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
